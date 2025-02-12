@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
+from MyTest.secret import SECRET_KEY
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,10 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ym1!@29$oy+2@tk*$u$3t8$u5zaq*30-wm&gkg=y1c#o-vf1p@'
-
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECRET_KEY = 'django-insecure-ym1!@29$oy+2@tk*$u$3t8$u5zaq*30-wm&gkg=y1c#o-vf1p@'
 DEBUG = True
 
 ALLOWED_HOSTS = []
