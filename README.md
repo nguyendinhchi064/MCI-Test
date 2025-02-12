@@ -28,6 +28,7 @@ Python, pip and git
    cd your-repo-name
 3. Create virtual environment: py -m venv venv
 4. Install Libraries or Dependacies: pip install django djangorestframework djangorestframework-simplejwt drf-spectacular
+
 Those for REST API, JWT and SWAGGER library needed for the project
 5. Create database: py manage.py makemigrations then type py manage.py migrate
 6. Create a superuser (or admin in django interface):  py manage.py createsuperuser
