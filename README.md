@@ -27,6 +27,7 @@ Python, pip and git
 
    cd your-repo-name
 3. Create virtual environment: py -m venv venv
+
 4. Install Libraries or Dependacies: pip install django djangorestframework djangorestframework-simplejwt drf-spectacular
 
 Those for REST API, JWT and SWAGGER library needed for the project
