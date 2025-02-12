@@ -13,8 +13,12 @@ User Authentication: Register, login, and JWT-based authentication.
 Admin Interface: Customizable Django admin interface for managing data.
 
 API Documentation: Swagger UI for API documentation.
+
+
 **Requirements**
 Python, pip and git
+
+
 **How to use my project**
 1. Clone the res: (can use git bash)
    git clone https://github.com/your-username/your-repo-name.git
