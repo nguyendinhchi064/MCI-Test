@@ -24,13 +24,14 @@ Python, pip and git
 **How to use my project**
 1. Clone the res: (can use git bash)
    git clone https://github.com/your-username/your-repo-name.git
+
    cd your-repo-name
-2. Create virtual environment: py -m venv venv
-3. Install Libraries or Dependacies: pip install django djangorestframework djangorestframework-simplejwt drf-spectacular
+3. Create virtual environment: py -m venv venv
+4. Install Libraries or Dependacies: pip install django djangorestframework djangorestframework-simplejwt drf-spectacular
 Those for REST API, JWT and SWAGGER library needed for the project
-4. Create database: py manage.py makemigrations then type py manage.py migrate
-5. Create a superuser (or admin in django interface):  py manage.py createsuperuser
-6. Run server and test: py manage.py runserver
+5. Create database: py manage.py makemigrations then type py manage.py migrate
+6. Create a superuser (or admin in django interface):  py manage.py createsuperuser
+7. Run server and test: py manage.py runserver
 ***This tips only for beginers**
 If you are new to django please use virtual environment first:
 py -m venv FolderName   <==== That's to create virtual environment by using venv, which is included in Python
