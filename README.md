@@ -30,9 +30,13 @@ Python, pip and git
 4. Install Libraries or Dependacies: pip install django djangorestframework djangorestframework-simplejwt drf-spectacular
 
 Those for REST API, JWT and SWAGGER library needed for the project
+
 5. Create database: py manage.py makemigrations then type py manage.py migrate
+
 6. Create a superuser (or admin in django interface):  py manage.py createsuperuser
+
 7. Run server and test: py manage.py runserver
+
 ***This tips only for beginers**
 If you are new to django please use virtual environment first:
 py -m venv FolderName   <==== That's to create virtual environment by using venv, which is included in Python
