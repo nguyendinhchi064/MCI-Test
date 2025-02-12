@@ -8,7 +8,7 @@ Product Management: CRUD operations for products.
 
 Employee Management: CRUD operations for employees.
 
-Task Management: CRUD operations for tasks, with filtering by status and assigned employee.
+TaskBoard Management: CRUD operations for tasks, with filtering by status and assigned employee.
 
 User Authentication: Register, login, and JWT-based authentication.
 
